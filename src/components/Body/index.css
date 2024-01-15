@@ -1,0 +1,180 @@
+/* Write your CSS here */
+
+.body-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+}
+
+@media screen and (min-width: 768px) {
+  .body-container {
+    display: flex;
+    flex-direction: row;
+    height: 448px;
+    justify-content: space-between;
+    margin-top: 8px;
+    margin-bottom: 12px;
+  }
+}
+
+.left-navbar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 30%;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  background-color: #e2e8f0;
+  flex-shrink: 0;
+  align-self: stretch;
+  color: #475569;
+}
+
+@media screen and (min-width: 768px) {
+  .left-navbar {
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    height: 100%;
+    margin-right: 2px;
+    margin-left: 2px;
+    width: 30%;
+  }
+}
+
+.list-item {
+  display: flex;
+  list-style-type: none;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+  justify-content: center;
+}
+
+@media screen and (min-width: 768px) {
+  .list-item {
+    flex-direction: column;
+  }
+}
+
+.item {
+  font-size: 20px;
+  font-family: 'roboto';
+  margin: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .item {
+    font-size: 28px;
+  }
+}
+
+.body-header-text {
+  color: #475569;
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+  font-family: 'roboto';
+}
+
+@media screen and (min-width: 768px) {
+  .body-header-text {
+    font-size: 20px;
+    text-align: left;
+  }
+}
+
+.context {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 32px;
+  margin-top: 6px;
+  margin-bottom: 2px;
+}
+
+@media screen and (min-width: 768px) {
+  .context {
+    margin-right: 2px;
+    margin-left: 2px;
+  }
+}
+
+.context-box {
+  color: #475569;
+  text-align: center;
+  font-family: 'Roboto';
+  font-size: 26px;
+  margin: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .context-box {
+    text-align: left;
+    font-size: 24px;
+    margin: 0;
+  }
+}
+
+.right-navbar {
+  display: flex;
+
+  flex-direction: column;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  background-color: #e2e8f8;
+  height: 30%;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+@media screen and (min-width: 768px) {
+  .right-navbar {
+    justify-content: flex-start;
+    height: 100%;
+    width: 30%;
+    max-width: 250px;
+    padding: 32px;
+    margin-right: 2px;
+    margin-left: 2px;
+  }
+}
+
+.ad-box-container {
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (min-width: 768px) {
+  .ad-box-container {
+    flex-direction: column;
+    width: 100%;
+  }
+}
+
+.ad-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #475569;
+  font-size: 20px;
+  font-family: 'roboto';
+  border: 1px solid #64748b;
+  margin: 5px;
+  height: 150px;
+  width: 180px;
+}
+
+@media screen and (min-width: 768px) {
+  .ad-box {
+    font-size: 24px;
+    width: 100%;
+    margin-bottom: 10px;
+    margin-right: 0px;
+  }
+}
